@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024" role="img" aria-label="Bookmark icon">
+  <rect width="1024" height="1024" fill="#f3eee5"/>
+  <path fill="#699980" d="
+    M 433 254
+    H 591
+    A 50 50 0 0 1 641 304
+    V 700
+    A 18 18 0 0 1 612 714
+    L 512 634
+    L 412 714
+    A 18 18 0 0 1 383 700
+    V 304
+    A 50 50 0 0 1 433 254
+    Z"/>
+</svg>
