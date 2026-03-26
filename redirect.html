@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>LexDay</title>
+  <script>
+    const params = new URLSearchParams(window.location.search);
+    const to = params.get("to");
+    if (to) {
+      window.location.href = "lexday://" + to;
+    }
+  </script>
+</head>
+<body>
+  <p style="font-family:sans-serif;text-align:center;margin-top:60px;color:#6B988D;">
+    Ouverture de LexDay…<br><br>
+    <a href="lexday://friends/requests" style="color:#6B988D;">Cliquez ici si rien ne se passe</a>
+  </p>
+</body>
+</html>
