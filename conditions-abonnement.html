@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Conditions d'abonnement - LexDay</title>
+  <meta name="description" content="Conditions d'abonnement à LexDay Premium : formules, tarifs, essai gratuit, renouvellement, résiliation et droit de rétractation." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300..800;1,9..40,300..800&display=swap" rel="stylesheet" />
+  <style>
+    :root{
+      --bg: #FAF3E8;
+      --ink: #191919;
+      --muted: rgba(25,25,25,.62);
+      --line: rgba(25,25,25,.10);
+      --sage: #6B988D;
+      --sageDeep: #517E73;
+      --max: 740px;
+    }
+    *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+    body{
+      font-family:"DM Sans", system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+      color:var(--ink);
+      background:var(--bg);
+      line-height:1.7;
+      -webkit-font-smoothing:antialiased;
+    }
+    .wrap{width:min(var(--max), calc(100% - 48px));margin:0 auto;padding:60px 0 80px;}
+    h1{font-size:28px;font-weight:700;margin-bottom:8px;color:var(--sageDeep);}
+    h2{font-size:20px;font-weight:700;margin-top:36px;margin-bottom:12px;color:var(--sageDeep);}
+    p{font-size:15px;color:var(--muted);margin-bottom:12px;}
+    a{color:var(--sageDeep);text-decoration:underline;}
+    strong{color:var(--ink);font-weight:600;}
+    ul{list-style:none;margin:10px 0 12px;padding:0;}
+    ul li{font-size:15px;color:var(--muted);padding-left:18px;position:relative;margin-bottom:6px;}
+    ul li::before{content:'';position:absolute;left:4px;top:11px;width:4px;height:4px;background:var(--sage);border-radius:50%;}
+    .back{display:inline-flex;align-items:center;gap:6px;font-size:14px;color:var(--muted);text-decoration:none;margin-bottom:24px;}
+    .back:hover{color:var(--ink);}
+    .updated{font-size:13px;color:var(--muted);margin-bottom:28px;}
+    .updated strong{font-weight:600;color:var(--ink);}
+    /* Pricing cards */
+    .pricing{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:18px 0 20px;}
+    .plan{background:rgba(255,255,255,.5);border:1px solid var(--line);border-radius:12px;padding:18px;position:relative;}
+    .plan.featured{border-color:var(--sage);background:rgba(107,152,141,.08);}
+    .plan-tag{display:inline-block;background:var(--sage);color:#fff;font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.06em;padding:3px 8px;border-radius:999px;margin-bottom:10px;}
+    .plan-name{font-size:12px;color:var(--muted);font-weight:600;text-transform:uppercase;letter-spacing:.06em;margin-bottom:6px;}
+    .plan-price{font-size:26px;font-weight:700;color:var(--ink);letter-spacing:-.02em;line-height:1;margin-bottom:0;}
+    .plan-price .unit{font-size:14px;font-weight:500;color:var(--muted);margin-left:2px;}
+    .plan-hint{font-size:12px;color:var(--muted);margin-top:8px;margin-bottom:0;}
+    .plan-hint.save{color:var(--sageDeep);font-weight:600;}
+    /* Notice callout */
+    .notice{background:rgba(107,152,141,.10);border-left:3px solid var(--sage);padding:16px 20px;margin:14px 0;border-radius:0 8px 8px 0;}
+    .notice-label{font-size:11px;font-weight:700;color:var(--sageDeep);letter-spacing:.08em;text-transform:uppercase;margin-bottom:6px;}
+    .notice-body{font-size:14px;color:var(--ink);line-height:1.6;margin-bottom:0;}
+    /* Steps blocks */
+    .steps{background:rgba(255,255,255,.5);border:1px solid var(--line);border-radius:10px;padding:14px 18px;margin:10px 0;font-size:14px;color:var(--muted);line-height:1.6;}
+    .steps-label{font-size:11px;font-weight:700;color:var(--sageDeep);letter-spacing:.08em;text-transform:uppercase;margin-bottom:6px;}
+    .steps code{font-family:inherit;background:rgba(25,25,25,.06);padding:2px 6px;border-radius:4px;color:var(--ink);font-size:13px;font-weight:500;}
+    footer{border-top:1px solid var(--line);padding:24px 0;margin-top:60px;font-size:13px;color:var(--muted);display:flex;justify-content:space-between;flex-wrap:wrap;gap:12px;}
+    footer a{text-decoration:none;color:var(--muted);}
+    footer a:hover{color:var(--ink);}
+    @media (max-width: 520px){
+      .pricing{grid-template-columns:1fr;}
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <a class="back" href="index.html">&larr; Retour</a>
+    <h1>Conditions d'abonnement</h1>
+    <p class="updated">Dernière mise à jour : <strong>21/04/2026</strong></p>
+    <p>Les présentes conditions d'abonnement font partie intégrante des <a href="cgu.html">Conditions Générales d'Utilisation</a> de l'application LexDay, éditée par LexDay SAS (siège social : 60 rue François 1er, 75008 Paris). Pour toute question : <a href="mailto:hello@lexday.fr">hello@lexday.fr</a>.</p>
+    <h2>1. Service gratuit et service Premium</h2>
+    <p>L'utilisation de base de LexDay est <strong>gratuite</strong>. Certaines fonctionnalités avancées sont accessibles via l'abonnement <strong>LexDay Premium</strong>, proposé sous forme d'abonnement payant à renouvellement automatique.</p>
+    <p>Les fonctionnalités incluses dans chaque offre sont décrites sur la page d'abonnement dans l'application et peuvent évoluer. LexDay s'engage à maintenir, pendant la durée de l'abonnement en cours, un niveau de service au moins équivalent à celui souscrit au moment de la souscription.</p>
+    <h2>2. Formules et tarifs</h2>
+    <div class="pricing">
+      <div class="plan">
+        <div class="plan-name">Mensuelle</div>
+        <div class="plan-price">3,99&nbsp;€<span class="unit">/mois</span></div>
+        <p class="plan-hint">7 jours d'essai gratuit</p>
+      </div>
+      <div class="plan featured">
+        <span class="plan-tag">Avantageux</span>
+        <div class="plan-name">Annuelle</div>
+        <div class="plan-price">39,99&nbsp;€<span class="unit">/an</span></div>
+        <p class="plan-hint save">≈ 3,33 €/mois — 2 mois offerts</p>
+      </div>
+    </div>
+    <p>Les prix sont indiqués toutes taxes comprises (TVA applicable au taux en vigueur). Le tarif appliqué est celui affiché dans l'application au moment de la souscription. L'essai gratuit est réservé aux nouveaux abonnés n'en ayant pas déjà bénéficié.</p>
+    <h2>3. Souscription et paiement</h2>
+    <p>La souscription s'effectue exclusivement via les plateformes <strong>Apple App Store</strong> (iOS) ou <strong>Google Play</strong> (Android). Le paiement est réalisé par l'intermédiaire du compte Apple ID ou Google de l'Utilisateur, selon les conditions propres à chaque plateforme.</p>
+    <p>LexDay n'a pas accès aux données bancaires de l'Utilisateur, qui sont traitées directement par Apple ou Google.</p>
+    <h2>4. Essai gratuit</h2>
+    <p>Les nouveaux abonnés bénéficient d'une période d'essai gratuite de <strong>7 jours</strong>. L'essai est automatiquement converti en abonnement payant à son terme, sauf annulation par l'Utilisateur <strong>au moins 24 heures avant la fin de la période d'essai</strong>.</p>
+    <p>Un Utilisateur ayant déjà bénéficié d'un essai gratuit ne peut pas en bénéficier à nouveau.</p>
+    <h2>5. Renouvellement automatique</h2>
+    <p>L'abonnement se <strong>renouvelle automatiquement</strong> pour une durée identique à la période initialement souscrite (mensuelle ou annuelle), au tarif en vigueur lors du renouvellement, sauf résiliation par l'Utilisateur au moins 24 heures avant l'échéance.</p>
+    <p>Le compte de l'Utilisateur est débité dans les 24 heures précédant la fin de la période en cours.</p>
+    <h2>6. Résiliation</h2>
+    <p>L'Utilisateur peut résilier son abonnement à tout moment, sans frais et sans motif, directement depuis les réglages de son compte :</p>
+    <div class="steps">
+      <div class="steps-label">Sur iOS</div>
+      <code>Réglages</code> → <code>[Votre nom]</code> → <code>Abonnements</code> → <code>LexDay</code> → <code>Annuler l'abonnement</code>
+    </div>
+    <div class="steps">
+      <div class="steps-label">Sur Android</div>
+      <code>Play Store</code> → <code>Profil</code> → <code>Paiements et abonnements</code> → <code>Abonnements</code> → <code>LexDay</code> → <code>Annuler</code>
+    </div>
+    <p>La résiliation prend effet à la fin de la période d'abonnement en cours. L'Utilisateur conserve l'accès aux fonctionnalités Premium jusqu'à cette échéance. <strong>Aucun remboursement au prorata n'est effectué</strong> pour la période déjà entamée, sauf dispositions légales contraires.</p>
+    <h2>7. Droit de rétractation</h2>
+    <div class="notice">
+      <div class="notice-label">Information importante</div>
+      <p class="notice-body">Conformément à l'article <strong>L221-28 13° du Code de la consommation</strong>, le droit de rétractation de 14 jours <strong>ne s'applique pas</strong> aux contrats de fourniture de contenu numérique non fourni sur un support matériel dont l'exécution a commencé après accord préalable exprès du consommateur et renoncement exprès à son droit de rétractation.</p>
+    </div>
+    <p>En souscrivant à LexDay Premium et en accédant immédiatement au service, l'Utilisateur reconnaît expressément :</p>
+    <ul>
+      <li>demander que l'exécution du service commence avant l'expiration du délai de rétractation ;</li>
+      <li>renoncer expressément à son droit de rétractation.</li>
+    </ul>
+    <h2>8. Modification des tarifs</h2>
+    <p>LexDay se réserve le droit de modifier les tarifs des abonnements. Toute modification sera notifiée à l'Utilisateur au moins <strong>30 jours avant</strong> sa prise d'effet, par notification dans l'application et/ou par courrier électronique.</p>
+    <p>Le nouveau tarif ne s'appliquera qu'au prochain renouvellement. L'Utilisateur peut résilier son abonnement avant l'application du nouveau tarif s'il ne l'accepte pas.</p>
+    <h2>9. Remboursement</h2>
+    <p>Les demandes de remboursement relèvent exclusivement des politiques d'Apple et de Google :</p>
+    <ul>
+      <li>Apple : <a href="https://reportaproblem.apple.com" target="_blank" rel="noopener">reportaproblem.apple.com</a></li>
+      <li>Google : <a href="https://support.google.com/googleplay/answer/2479637" target="_blank" rel="noopener">support.google.com/googleplay</a></li>
+    </ul>
+    <p>LexDay ne peut pas traiter directement les demandes de remboursement pour des achats effectués via ces plateformes.</p>
+    <h2>10. Suspension et résiliation par LexDay</h2>
+    <p>LexDay se réserve le droit de suspendre ou de résilier un abonnement en cas de <strong>manquement grave</strong> de l'Utilisateur aux présentes conditions : fraude, usage abusif, contournement du système de paiement, comportement contraire aux CGU. Dans ce cas, aucun remboursement ne sera dû.</p>
+    <footer>
+      <div>&copy; <span id="y"></span> LexDay</div>
+      <div style="display:flex;gap:14px;flex-wrap:wrap;">
+        <a href="index.html">Accueil</a>
+        <a href="cgu.html">CGU</a>
+        <a href="privacy.html">Confidentialité</a>
+        <a href="mentions-legales.html">Mentions légales</a>
+      </div>
+    </footer>
+  </div>
+  <script>document.getElementById('y').textContent=new Date().getFullYear();</script>
+</body>
+</html>
