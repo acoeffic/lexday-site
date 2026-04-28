@@ -3,6 +3,7 @@
   "outputDirectory": ".",
   "rewrites": [
     { "source": "/redirect", "destination": "/redirect.html" },
+    { "source": "/confirm", "destination": "/confirm.html" },
     { "source": "/(.*)", "destination": "/index.html" }
   ],
   "headers": [
