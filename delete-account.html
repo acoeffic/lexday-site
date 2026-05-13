@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Suppression de compte - LexDay</title>
+  <meta name="description" content="Procédure de suppression de compte et des données associées de l'application LexDay." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300..800;1,9..40,300..800&display=swap" rel="stylesheet" />
+  <style>
+    :root{
+      --bg: #FAF3E8;
+      --ink: #191919;
+      --muted: rgba(25,25,25,.62);
+      --line: rgba(25,25,25,.10);
+      --sage: #6B988D;
+      --sageDeep: #517E73;
+      --max: 740px;
+    }
+    *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+    body{
+      font-family:"DM Sans", system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+      color:var(--ink);
+      background:var(--bg);
+      line-height:1.7;
+      -webkit-font-smoothing:antialiased;
+    }
+    .wrap{width:min(var(--max), calc(100% - 48px));margin:0 auto;padding:60px 0 80px;}
+    h1{font-size:28px;font-weight:700;margin-bottom:8px;color:var(--sageDeep);}
+    .subtitle{font-size:14px;color:var(--muted);margin-bottom:40px;}
+    h2{font-size:20px;font-weight:700;margin-top:36px;margin-bottom:12px;color:var(--sageDeep);}
+    h3{font-size:16px;font-weight:600;margin-top:16px;margin-bottom:8px;color:var(--ink);}
+    p{font-size:15px;color:var(--muted);margin-bottom:12px;}
+    ul,ol{padding-left:20px;margin-bottom:12px;}
+    li{font-size:15px;color:var(--muted);margin-bottom:6px;}
+    a{color:var(--sageDeep);text-decoration:underline;}
+    .back{display:inline-flex;align-items:center;gap:6px;font-size:14px;color:var(--muted);text-decoration:none;margin-bottom:24px;}
+    .back:hover{color:var(--ink);}
+    .callout{
+      background:rgba(107,152,141,.08);
+      border-left:3px solid var(--sage);
+      padding:16px 20px;
+      border-radius:6px;
+      margin:16px 0;
+    }
+    .callout p{margin-bottom:0;color:var(--ink);}
+    footer{border-top:1px solid var(--line);padding:24px 0;margin-top:60px;font-size:13px;color:var(--muted);display:flex;justify-content:space-between;flex-wrap:wrap;gap:12px;}
+    footer a{text-decoration:none;color:var(--muted);}
+    footer a:hover{color:var(--ink);}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <a class="back" href="index.html">&larr; Retour</a>
+
+    <h1>Suppression de votre compte LexDay</h1>
+    <p class="subtitle">Dernière mise à jour : 11/05/2026</p>
+
+    <p>Vous pouvez à tout moment demander la suppression de votre compte <strong>LexDay</strong> et de l'ensemble des données personnelles associées. Cette page décrit la procédure à suivre et précise quelles données sont supprimées ou conservées.</p>
+
+    <h2>1. Suppression directement depuis l'application</h2>
+    <p>La méthode la plus rapide est d'utiliser l'option intégrée dans l'application LexDay :</p>
+    <ol>
+      <li>Ouvrez l'application LexDay sur votre téléphone ;</li>
+      <li>Rendez-vous dans <strong>Paramètres</strong> ;</li>
+      <li>Allez dans <strong>Compte</strong> ;</li>
+      <li>Sélectionnez <strong>Supprimer mon compte</strong> ;</li>
+      <li>Confirmez votre choix dans la boîte de dialogue.</li>
+    </ol>
+    <p>La suppression est effective immédiatement.</p>
+
+    <h2>2. Suppression par email</h2>
+    <p>Si vous n'avez plus accès à l'application (téléphone perdu, compte verrouillé, etc.), vous pouvez demander la suppression par email :</p>
+
+    <div class="callout">
+      <p><strong>Envoyez un email à :</strong> <a href="mailto:hello@lexday.fr?subject=Suppression%20de%20compte%20LexDay">hello@lexday.fr</a></p>
+      <p><strong>Objet :</strong> Suppression de compte LexDay</p>
+      <p><strong>Contenu :</strong> indiquez l'adresse email associée à votre compte LexDay.</p>
+    </div>
+
+    <p>Pour vérifier votre identité, vous devez envoyer la demande depuis l'adresse email associée à votre compte LexDay. Votre demande sera traitée sous <strong>7 jours ouvrés</strong> maximum, et une confirmation vous sera envoyée par email une fois la suppression effectuée.</p>
+
+    <h2>3. Données supprimées</h2>
+    <p>Lors de la suppression de votre compte, les données suivantes sont définitivement effacées de nos systèmes :</p>
+    <ul>
+      <li>Profil utilisateur (nom, pseudonyme, photo de profil, biographie)</li>
+      <li>Adresse email associée au compte</li>
+      <li>Identifiants d'authentification (mot de passe, identifiants OAuth Google / Apple)</li>
+      <li>Liste de livres suivis et enregistrés</li>
+      <li>Sessions de lecture, annotations textuelles et vocales, statistiques</li>
+      <li>Avis, commentaires et autres contenus publiés dans l'application</li>
+      <li>Relations sociales (amis, groupes, défis)</li>
+      <li>Badges et succès</li>
+      <li>Token de notification push (Firebase Cloud Messaging)</li>
+      <li>Identifiant pseudonyme d'analytics (PostHog)</li>
+      <li>Préférences et paramètres utilisateur</li>
+    </ul>
+
+    <h2>4. Données conservées</h2>
+    <p>Certaines données peuvent être conservées de manière limitée dans le temps, dans les cas suivants :</p>
+    <ul>
+      <li><strong>Logs techniques de sécurité</strong> — conservés pendant 30 jours après la suppression à des fins de prévention des abus et de détection de fraude, puis supprimés.</li>
+      <li><strong>Données analytiques agrégées et anonymisées</strong> — ne contiennent aucune information permettant de vous identifier ; elles ne sont pas supprimées car elles ne constituent plus des données personnelles au sens du RGPD.</li>
+      <li><strong>Données liées aux abonnements</strong> — l'historique de facturation (gérés par Apple App Store ou Google Play Billing) reste détenu par Apple ou Google selon leurs propres politiques. LexDay ne conserve pas cet historique de son côté.</li>
+      <li><strong>Contenus publics partagés avant la suppression</strong> — si vos contenus publics (par exemple un avis sur un livre) ont été interagis par d'autres utilisateurs, ils peuvent être conservés sous forme anonymisée (sans lien avec votre identité) afin de préserver l'expérience des autres utilisateurs.</li>
+      <li><strong>Obligations légales</strong> — toute donnée que nous serions légalement tenus de conserver (par exemple en cas de procédure judiciaire en cours) sera conservée pendant la durée légale requise.</li>
+    </ul>
+
+    <h2>5. Délais</h2>
+    <ul>
+      <li><strong>Suppression effective</strong> : immédiate (in-app) ou sous 7 jours ouvrés (par email).</li>
+      <li><strong>Anonymisation complète</strong> : sous 12 mois maximum après la suppression.</li>
+    </ul>
+
+    <h2>6. Contact</h2>
+    <p>Pour toute question concernant la suppression de votre compte ou vos droits relatifs à vos données personnelles, contactez-nous à <a href="mailto:hello@lexday.fr">hello@lexday.fr</a>.</p>
+    <p>Pour plus de détails sur la gestion de vos données, consultez notre <a href="privacy.html">Politique de confidentialité</a>.</p>
+
+    <footer>
+      <div>&copy; <span id="y"></span> LexDay</div>
+      <div style="display:flex;gap:14px;flex-wrap:wrap;">
+        <a href="index.html">Accueil</a>
+        <a href="cgu.html">CGU</a>
+        <a href="privacy.html">Confidentialité</a>
+        <a href="mentions-legales.html">Mentions légales</a>
+      </div>
+    </footer>
+  </div>
+  <script>document.getElementById('y').textContent=new Date().getFullYear();</script>
+</body>
+</html>
